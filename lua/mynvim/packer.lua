@@ -21,6 +21,11 @@ require('lazy').setup({
         branch = 'v4.x'
     },
     {
+        'akinsho/toggleterm.nvim',
+        version = '*',
+        config = true
+    },
+    {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
         "neovim/nvim-lspconfig"
