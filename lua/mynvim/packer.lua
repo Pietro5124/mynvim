@@ -33,5 +33,7 @@ require('lazy').setup({
     'neovim/nvim-lspconfig',
     'hrsh7th/nvim-cmp',
     'hrsh7th/cmp-nvim-lsp',
-    'tpope/vim-fugitive'
+    'tpope/vim-fugitive',
+
+    'mbbill/undotree'
 })
